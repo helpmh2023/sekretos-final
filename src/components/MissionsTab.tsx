@@ -60,7 +60,7 @@ const MissionsTab = () => {
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
         <div className="bg-popover rounded-xl p-6 glow-border text-center">
           <p className="text-sm text-muted-foreground mb-2">TOTAL</p>
-          <p className="text-4xl font-bold">6</p>
+          <p className="text-4xl font-bold">3</p>
         </div>
         <div className="bg-popover rounded-xl p-6 glow-border text-center">
           <p className="text-sm text-muted-foreground mb-2">COMPLETED</p>
@@ -68,7 +68,7 @@ const MissionsTab = () => {
         </div>
         <div className="bg-popover rounded-xl p-6 glow-border text-center">
           <p className="text-sm text-muted-foreground mb-2">ACTIVE</p>
-          <p className="text-4xl font-bold">6</p>
+          <p className="text-4xl font-bold">3</p>
         </div>
         <div className="bg-popover rounded-xl p-6 glow-border text-center">
           <p className="text-sm text-muted-foreground mb-2">COMPLETION</p>
@@ -198,3 +198,4 @@ const MissionsTab = () => {
 };
 
 export default MissionsTab;
+

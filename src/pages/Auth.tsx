@@ -52,7 +52,7 @@ const Auth = () => {
         });
         
         if (error) throw error;
-        toast.success("Agent profile created! Proceeding to orientation...");
+        toast.success("Agent profile created! Please check your email for a confirmation link...");
       }
     } catch (error: any) {
       console.error("Auth error:", error);
@@ -122,3 +122,4 @@ const Auth = () => {
 };
 
 export default Auth;
+
